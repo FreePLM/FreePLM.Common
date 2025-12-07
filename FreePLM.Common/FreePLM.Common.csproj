@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<OutputType>library</OutputType>
+	<PackageId>FreePLM.Common</PackageId>
+	<Version>10.0.0</Version>
+	<Authors>FreePLM.Common</Authors>
+	<Company>FreePLM.Common</Company>
+	<PackageDescription>FreePLM.Common</PackageDescription>
+	<RepositoryUrl>https://github.com/FreePLM/FreePLM.Common</RepositoryUrl>
+	<IsPackable>true</IsPackable>
+	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FreePLM.Core" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+</Project>
