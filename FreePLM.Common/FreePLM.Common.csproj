@@ -16,7 +16,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FreePLM.Core" Version="10.0.2" />
+    <!-- Reference FreePLM.Core as project (not NuGet package) -->
+    <ProjectReference Include="..\..\FreePLM.Core\FreePLM.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>
