@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
 	<OutputType>library</OutputType>
 	<PackageId>FreePLM.Common</PackageId>
-	<Version>10.0.1</Version>
+	<Version>10.0.2</Version>
 	<Authors>FreePLM.Common</Authors>
 	<Company>FreePLM.Common</Company>
 	<PackageDescription>FreePLM.Common</PackageDescription>
@@ -16,7 +16,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FreePLM.Core" Version="10.0.1" />
+    <PackageReference Include="FreePLM.Core" Version="10.0.2" />
   </ItemGroup>
 
   <ItemGroup>
